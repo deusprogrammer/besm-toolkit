@@ -37,6 +37,26 @@
   }
 }
 
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.initiative-display {
+  width: 20%;  
+}
+
+.initiative-display .combatant-list {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.map-display {
+  width: 80%;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -69,6 +89,10 @@
   background-color: lightslategray;
   color: white;
   padding: 10px;
+}
+
+.combatant button {
+  padding: 2rem;
 }
 
 .combatant-name {
